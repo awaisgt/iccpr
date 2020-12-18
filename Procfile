@@ -1,1 +1,1 @@
-web : python gog.py
+web : gunicorn app:app
